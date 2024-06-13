@@ -10,6 +10,7 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
 body {
+  
   padding:0;
   margin: 0;
   background-color: #fafafa;
@@ -991,7 +992,7 @@ button.ant-btn.bell strong {
   line-height: 55px;
 }
 .tabled{
-  background: rgba(127,31,32,255);
+  background: rgb(21, 21, 21);
   color: white;
 }
 
@@ -1436,8 +1437,8 @@ span.ismobile {
   height: 40px;
 }
 .tableButtons{
-  background-color: rgb(97, 23, 25);
-  color: white;
+  background-color: white;
+  color: rgb(127, 31, 32);
 }
  .ant-menu-item-selected {
     background-color: rgb(127, 31, 32) !important;
@@ -1607,7 +1608,9 @@ ul.ant-menu.ant-menu-root.ant-menu-inline.ant-menu-light.left-nav
   color: #8c8c8c;
   margin: 0px;
 }
-
+.custom-row-hover:hover{
+  background-color: #000;
+}
 .ant-table-thead > tr > th  {
   font-size: 14px;
   font-weight: 600;
@@ -1615,6 +1618,8 @@ ul.ant-menu.ant-menu-root.ant-menu-inline.ant-menu-light.left-nav
   margin-bottom: 0px;
   background: transparent;
 }
+
+
 .ant-table-tbody > tr > td p {
   font-size: 14px;
   color: #8c8c8c;
@@ -1701,6 +1706,7 @@ ul.ant-menu.ant-menu-root.ant-menu-inline.ant-menu-light.left-nav
 .ant-table.ant-table-middle tfoot > tr > th,
 .ant-table.ant-table-middle tfoot > tr > td {
   padding: 16px 25px;
+
  
 }
 
@@ -1713,12 +1719,12 @@ ul.ant-menu.ant-menu-root.ant-menu-inline.ant-menu-light.left-nav
   table
   thead.ant-table-thead
   .ant-table-cell {
-  background-color: rgb(127, 31, 32);
+  background-color: black;
   color: white;
 }
 
 .ant-table-cell {
-   background-color: rgb(127, 31, 32);
+   background-color: black;
    
 }
 .ant-table-tbody > tr{
@@ -1731,8 +1737,11 @@ ul.ant-menu.ant-menu-root.ant-menu-inline.ant-menu-light.left-nav
 .paginationTextColor{
   color: white;
 }
+
 .ant-table-tbody > tr:hover{
   color:#000 ;
+  background-color: none;
+  background: none;
 } 
 .ant-progress-project {
   display: flex;
@@ -3569,7 +3578,7 @@ h2 {text-align: center;}
   width: 35px;
   height: 35px;
   border-radius: 50%;
-  background:rgb(97, 23, 25);
+  background:white;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -3741,16 +3750,15 @@ border:1px solid rgba(127,31,32,255);
 .info{
  display: flex;
  flex-direction: column;
- gap: 10px;
 
- padding: 10px;
+ 
 }
 .question{
-  font-size: larger;
+  font-size:20px;
   color: rgba(127,31,32,255)
 }
 .answer{
-  font-weight: 600;
+  font-weight: 400;
   color: rgb(233, 233, 233);
 }
 .sleepIcons{

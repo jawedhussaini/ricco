@@ -41,7 +41,7 @@ function Personal(data) {
               <tr>
                 <td className="cartTableTD">
                   <div className="profLogo">
-                    <MdOutlineMail size={15} color="white" />
+                    <MdOutlineMail size={15} color="black" />
                   </div>
                 </td>
                 <td className="cartTableTD">
