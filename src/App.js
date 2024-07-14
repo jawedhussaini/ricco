@@ -16,9 +16,10 @@ import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
 import Gallery from "./pages/Gallery";
 
+
 const PrivateRoutes = () => {
   let auth = getToken();
-  return auth ? <Outlet /> : <Navigate to="/Home" />;
+  return auth ? <Outlet /> : <Navigate to="/sign-in" />;
 };
 
 function App() {

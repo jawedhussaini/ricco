@@ -6,12 +6,15 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 import GloblaState, { GloblaContext } from './context';
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <GloblaState>
       <BrowserRouter >
+   
         <App />
+    
       </BrowserRouter>
     </GloblaState>
   </React.StrictMode>
